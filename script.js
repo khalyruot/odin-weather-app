@@ -8,6 +8,7 @@ const dispaly_adress = document.getElementById("current_adress");
 async function getWeather(location){
     location = weatherCity.value;
     const weatherAPI = `https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/${location}?key=${weatherAPIkey}`;
+    console.log(weatherAPI);
     try{
         
         const response = await fetch(weatherAPI,{mode:"cors"});

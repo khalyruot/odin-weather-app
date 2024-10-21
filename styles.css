@@ -43,3 +43,6 @@ body{
 #display_weather_C{
     margin: 10px;
 }
+#current_adress{
+    text-align: center;
+}
